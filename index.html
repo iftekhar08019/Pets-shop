@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet's Shop</title>
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Vanilla CSS -->
+     <style>
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+        .font-adlam{
+            font-family: "ADLaM Display", serif;
+        }
+     </style>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/dacb0dd481.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header >
+        <nav class="font-sora bg-[#FFF9F4]">
+            <div class="navbar container mx-auto">
+                <div class="navbar-start space-x-3">
+                    <img src="assests/logo-header.png" alt="">
+                    <h2 class="hidden lg:block lg:text-2xl">Browse<span class="text-yellow-200">4</span>Pets</h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end lg:navbar-end lg:space-x-3">
+                    <i class="fa-regular fa-bell hidden lg:block"></i>
+                    <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+                    <button class="hidden lg:block border-solid border-2 py-2 px-6 border-yellow-300 rounded-lg">Login</button>
+                    <button class="hidden lg:block border-solid border-2 py-2 px-6 border-transparent bg-[#FFDC26] rounded-lg">Register</button>
+                    <i class="fa-solid fa-bars lg:hidden"></i>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
